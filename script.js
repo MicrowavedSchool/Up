@@ -283,8 +283,8 @@ var programCode = function(processingInstance) {
     var enemy2 = function(config) {
       this.x = config.x;
       this.y = config.y;
-      this.img = loadImage("https://static.wikia.nocookie.net/among-us-wiki/images/3/31/Red.png/revision/latest?cb=20230601155504");
-      this.img2 = loadImage("https://static.wikia.nocookie.net/pilgrammed-rblx/images/d/dc/Harpoon.png/revision/latest?cb=20230407121508");
+      this.img = loadImage("https://static.wikia.nocookie.net/among-us-wiki/images/3/31/Red.png");
+      this.img2 = loadImage("https://static.wikia.nocookie.net/pilgrammed-rblx/images/d/dc/Harpoon.png");
       this.img3 = loadImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvxXofZIHMAyKzAr03TjTEw2Y80ocQPFiX1QzJ05OXjPO9AaSFupbug1WFL6SXy05E7o:https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb419721-2136-495b-af22-a633dcb2e6c6/dfmzjvc-195ea495-c583-4793-9e2c-077e6635231a.png%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiNDE5NzIxLTIxMzYtNDk1Yi1hZjIyLWE2MzNkY2IyZTZjNlwvZGZtemp2Yy0xOTVlYTQ5NS1jNTgzLTQ3OTMtOWUyYy0wNzdlNjYzNTIzMWEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vl5th56gH5ZvFPlS_DhuZqNCr9mUngB_zJOvZ2Lf0cw&usqp=CAU");
       this.width = config.width || 40;
       this.height = config.height || 60;
