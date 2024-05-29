@@ -4,7 +4,7 @@ var programCode = function(processingInstance) {
     frameRate(30);
 
     //----------------------------------------------
-    var Level = 1;
+    var Level = 20;
     var l = (Level - 1);
     var keys = {};
     keyPressed = function() {
@@ -283,7 +283,7 @@ var programCode = function(processingInstance) {
     var enemy2 = function(config) {
       this.x = config.x;
       this.y = config.y;
-      this.img = loadImage("amogus.png");
+      this.img = loadImage("https://static.wikia.nocookie.net/among-us-wiki/images/3/31/Red.png/revision/latest?cb=20230601155504.png");
       this.img2 = loadImage("Harpoon2.png");
       this.img3 = loadImage("croose.jpeg");
       this.width = config.width || 40;
