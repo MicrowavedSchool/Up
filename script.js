@@ -4,7 +4,7 @@ var programCode = function(processingInstance) {
     frameRate(30);
 
     //----------------------------------------------
-    var Level = 20;
+    var Level = 1;
     var l = (Level - 1);
     var keys = {};
     keyPressed = function() {
